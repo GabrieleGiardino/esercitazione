@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benchmark Quiz</title>
+  <link rel="stylesheet" href="esercitazione2.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Timer Section -->
+    <div class="timer-container">
+      <div class="timer-circle">
+        <div class="progress-bar"></div>
+        <div class="timer-text">
+          <p id="timer-number">60</p>
+          <p>seconds</p>
+          <p>remaining</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question Section -->
+    <div class="question-container">
+      <p id="question-text">What does CPU stand for?</p>
+      <div class="options">
+        <label
+           type="radio" name="option" class="option" value="Central Processing Unit">
+          <span>Central Processing Unit</span>
+        </label>
+        <label>
+          <input type="radio" name="option" class="option" value="Central Process Unit">
+          <span>Central Process Unit</span>
+        </label>
+        <label>
+          <input type="radio" name="option" class="option" value="Computer Personal Unit">
+          <span>Computer Personal Unit</span>
+        </label>
+        <label>
+          <input type="radio" name="option" class="option" value="Central Processor Unit">
+          <span>Central Processor Unit</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-text">
+        <span>Question <span id="question-counter">1/10</span></span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="esercitazione.js"></script>
+</body>
+</html>
